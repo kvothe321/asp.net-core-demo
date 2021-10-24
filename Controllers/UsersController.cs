@@ -48,10 +48,6 @@ namespace asp.net_core_demo.Controllers
             }
             await _userService.AddUser(userRegisterDTO);
             _logger.LogInformation("new user added");
-
-
-
-
         }
     }
 }

@@ -9,8 +9,6 @@ namespace asp.net_core_demo.Entities
         public string Email { get; set; }
         public string Address { get; set; }
         public int Age { get; set; }
-
         public int Gender { get; set; }
-
     }
 }
